@@ -1,0 +1,34 @@
+{
+  "name": "xera",
+  "version": "0.0.1",
+  "description": "Headless CMS with GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/empatlima/xera.git"
+  },
+  "keywords": [
+    "CMS"
+  ],
+  "author": "Yuandika Lovery Bayuputra, Muhammad Tsany Qudsi",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/empatlima/xera/issues"
+  },
+  "homepage": "https://github.com/empatlima/xera#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "graphql": "^0.9.3",
+    "graphql-server-express": "^0.7.2",
+    "graphql-tools": "^0.11.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "pug": "^2.0.0-beta.12"
+  }
+}
