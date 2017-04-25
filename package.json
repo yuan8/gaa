@@ -1,5 +1,5 @@
 {
-  "name": "xera",
+  "name": "xera_gaa",
   "version": "0.0.1",
   "description": "Headless CMS with GraphQL",
   "main": "index.js",
@@ -8,27 +8,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/empatlima/xera.git"
+    "url": "git+https://github.com/yuan8/gaa.git"
   },
-  "keywords": [
-    "CMS"
-  ],
-  "author": "Yuandika Lovery Bayuputra, Muhammad Tsany Qudsi",
-  "license": "GPL-3.0",
+  "author": "yuan dika lovery bayu p, tsany q",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/empatlima/xera/issues"
+    "url": "https://github.com/yuan8/gaa/issues"
   },
-  "homepage": "https://github.com/empatlima/xera#readme",
+  "homepage": "https://github.com/yuan8/gaa#readme",
   "dependencies": {
-    "body-parser": "^1.17.1",
     "express": "^4.15.2",
+    "express-graphql": "^0.6.4",
     "graphql": "^0.9.3",
-    "graphql-server-express": "^0.7.2",
-    "graphql-tools": "^0.11.0"
+    "mysql": "^2.13.0",
+    "node7": "^1.0.0"
   },
-  "devDependencies": {
-    "browser-sync": "^2.18.8",
-    "gulp": "^3.9.1",
-    "pug": "^2.0.0-beta.12"
-  }
+  "devDependencies": {}
 }
